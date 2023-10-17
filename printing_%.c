@@ -2,9 +2,9 @@
 #include <stdarg.h>
 
 /**
- * printf_37 - printing ASCI value of %
+ * printf_37 - printing ASCII value of %
  *
- * return: 1 on successful
+ * Return: Always return 1 to indicate a successful operation.
 */
 
 int printf_37(void)

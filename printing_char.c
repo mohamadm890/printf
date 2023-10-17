@@ -6,7 +6,7 @@
  * @arg: argument
  * Return: 1
  */
-int printf_char(va_list arg)
+int printf_char(va_list *arg)
 {
 char str = va_arg(arg, int);
 _putchar(str);
