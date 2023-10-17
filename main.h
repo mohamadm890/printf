@@ -3,11 +3,13 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <strarg.h>
+#include <limits.h>
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-int print_char(va_list arg);
-int _strlen(char *d);`
+int printf_char(va_list arg);
+int _strlen(char *d);
 int printf_string(va_list arg);
 int _strlenc(const char *d);
-#endif
+
+#endif /* MAIN_H */

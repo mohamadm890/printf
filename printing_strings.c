@@ -16,7 +16,7 @@ if (d == NULL)
 {
 d = "(null)";
 length = _strlen(d);
-for (p = 0; p < length; p++);
+for (p = 0; p < length; p++)
 return (length);
 }
 else
@@ -24,5 +24,5 @@ else
 length = _strlen(d);
 for (p = 0; p < length; p++)
 _putchar(d[p]);
-return(length);
+return (length);
 }
