@@ -3,9 +3,11 @@
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-int Choices(const char *format, va_list args, int printed);
-int printf_string(va_list args, int printed);
-int printf_char(va_list args, int printed);
-int printf_integer(va_list args, int printed);
+int print_buff(char *buff, unsigned int numbuff)
+int par_str(char *buff_dest, va_list arg, int buff_count)
+int par_perc(char *buff_dest, va_list arg, int buff_count)
+int par_int(char *buff_dest, va_list arg, int buff_count)
+int par_char(char *buff_dest, va_list arg, int buff_count)
+
 #endif /* MAIN_H */
 
