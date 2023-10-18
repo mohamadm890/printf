@@ -1,6 +1,6 @@
 #include <stdarg.h>
 #include <unistd.h>
-#incldue "main.h"
+#include "main.h"
 /**
  * _printf - Custom implementation of the printf function.
  * @format: The format string.
