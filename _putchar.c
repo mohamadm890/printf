@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 #include "main.h"
-=======
 #include <unistd.h>
-
->>>>>>> ac22cc40fff10f04ebde2fda94b748a31a0c0f2c
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
@@ -13,7 +9,6 @@
  */
 int _putchar(char c)
 {
-<<<<<<< HEAD
 return (buffer(c));
 }
 
@@ -35,7 +30,5 @@ i = 0;
 if (c != -1)
 buffering[i++] = c;
 return (1);
-=======
 return (write(1, &c, 1));
->>>>>>> ac22cc40fff10f04ebde2fda94b748a31a0c0f2c
 }

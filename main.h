@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+#ifndef MAIN_H
+#define MAIN_H
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#ifndef MAIN_H
-#define MAIN_H
+
 /* utils.c */
 int _strlen(const char *);
 int print(char *);
@@ -44,21 +44,6 @@ typedef struct _format
 	char type;
 	int (*f)(va_list);
 } format;
-=======
-#ifndef MAIN_H
-#define MAIN_H
-#include <stdio.h>
-#include <unistd.h>
-#include <limits.h>
 
-int _printf(const char *format, ...);
-int _putchar(char c);
-int printf_char(va_list arg);
-int _strlen(char *d);
-int printf_string(va_list arg);
-int _strlenc(const char *d);
-int printf_37(void);
-void print_buffer(char buffer[], int *buff_ind);
->>>>>>> ac22cc40fff10f04ebde2fda94b748a31a0c0f2c
 
 #endif
