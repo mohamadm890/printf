@@ -13,7 +13,7 @@ int size;
 va_list args;
 if (format == NULL)
 {
-return -1;
+return (-1);
 }
 size = _strlen(format);
 if (size <= 0)
